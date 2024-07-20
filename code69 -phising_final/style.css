@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.popup-box {
+  
+  width: 200px; 
+  height: 30%; 
+  border-radius:10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.question{
+  height: 22px;
+  margin-top: px;
+  margin-left: -10px;
+
+}
+h1{
+  font-family:'Times New Roman', Times, serif;
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#scan {
+  padding: 5px 7px;
+  font-size: 14px;
+  border-radius:25px;
+  background-color: rgb(18, 112, 195);
+  color: whitesmoke;
+  border: solid black 2px;
+  cursor: pointer;
+
+  background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+#scan:hover {
+  background-color: lightblue;
+}
+
+#results {
+  list-style-type: decimal;
+  padding: 0;
+}
+
+#results li {
+  padding: 10px; /* Increase padding to add spacing between links */
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 10px; /* Add margin to increase spacing */
+}
